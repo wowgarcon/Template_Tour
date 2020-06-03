@@ -37,7 +37,40 @@
 							<a 	class="nav-link" href="#" id="navbarDropdown"
 								role="button" data-toggle="dropdown" aria-haspopup="true"
 								aria-expanded="false">
-								프로그램
+								여행정보
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a 	class="nav-link" href="#" id="navbarDropdown"
+								role="button" data-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="false">
+								투어
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a 	class="nav-link" href="#" id="navbarDropdown"
+								role="button" data-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="false">
+								항공
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a 	class="nav-link" href="#" id="navbarDropdown"
+								role="button" data-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="false">
+								호텔
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="#">Action</a>
@@ -87,11 +120,13 @@
 	
 	<!-- Main Layout -->
 	<main>
-		<div class="container d-flex flex-column" style="height: 200px;">
-			<div class="d-flex flex-wrap justify-content-center">
-				<div class="p-2 bg-dark">sssssssssssssss</div>
-				<div class="p-2 flex-grow-1 bg-warning">ssssssssssssssssssss</div>
-			</div>
+		<div class="container bg-success" style="height: 50vh; min-height: 200px; max-height: 400px;">
+			<div class="p-2k">sssssssssssssss</div>
+		</div>
+		<div class="bg-dark text-center text-light" style="height: 50vh">
+			<h4 class="">지금 떠나기 좋은 여행지!</h4>
+			<p class="">코로나에도 여행 떠나는 민폐덩어리들을 위한 지옥의 여행지</p>
+			<button class="btn btn-success">확인하기</button>
 		</div>
 	</main>
 	
