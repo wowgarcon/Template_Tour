@@ -131,7 +131,8 @@
 	</main>
 	
 	<!-- Footer -->
-	<footer>
+	<footer class="bg-primary">
+	ddd
 	</footer>
 
 	
